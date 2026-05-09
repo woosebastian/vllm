@@ -528,6 +528,7 @@ _TEXT_GENERATION_EXAMPLE_MODELS = {
         extras={"tiny-random": "tiny-random/qwen3-next-moe"},
         min_transformers_version="4.56.3",
     ),
+    "Qwen3_5ForCausalLM": _HfExamplesInfo("Qwen/Qwen3.5-0.8B"),
     "Rnj1ForCausalLM": _HfExamplesInfo(
         "EssentialAI/rnj-1-instruct",
         is_available_online=False,
